@@ -1,0 +1,66 @@
+{
+  "ModId": "ff16.qol.cutscenefastforward",
+  "ModName": "Cutscene Fast-Forward",
+  "ModAuthor": "mancer81",
+  "ModVersion": "1.0.0",
+  "ModDescription": "Hold your standard Confirm/Skip button (Cross / A / Enter / Space) to fast-forward in-engine cutscenes and pre-rendered .bk2 movies without skipping the story. Universal gamepad and keyboard/mouse support.",
+  "ModDll": "ff16.qol.cutscenefastforward.dll",
+  "ModIcon": "",
+  "ModR2RManagedDll32": "",
+  "ModR2RManagedDll64": "",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "Tags": [
+    "QoL",
+    "Cutscene",
+    "Fast-Forward",
+    "Skip"
+  ],
+  "CanUnload": false,
+  "HasExports": false,
+  "IsLibrary": false,
+  "ReleaseMetadataFileName": "ff16.qol.cutscenefastforward.ReleaseMetadata.json",
+  "IgnoreRegexes": [
+    ".*\\.json"
+  ],
+  "IncludeRegexes": [
+    "\\.deps\\.json",
+    "\\.runtimeconfig\\.json",
+    "ModConfig\\.json"
+  ],
+  "PluginData": {
+    "GitHubDependencies": {
+      "IdToConfigMap": {
+        "Reloaded.Memory.SigScan.ReloadedII": {
+          "Config": {
+            "UserName": "Reloaded-Project",
+            "RepositoryName": "Reloaded.Memory.SigScan",
+            "UseReleaseTag": false,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "Reloaded.Memory.SigScan.ReloadedII.ReleaseMetadata.json"
+        },
+        "reloaded.sharedlib.hooks": {
+          "Config": {
+            "UserName": "Sewer56",
+            "RepositoryName": "Reloaded.SharedLib.Hooks.ReloadedII",
+            "UseReleaseTag": true,
+            "AssetFileName": "reloaded.sharedlib.hooks.zip"
+          },
+          "ReleaseMetadataName": "Sewer56.Update.ReleaseMetadata.json"
+        }
+      }
+    }
+  },
+  "IsUniversalMod": false,
+  "ModDependencies": [
+    "Reloaded.Memory.SigScan.ReloadedII",
+    "reloaded.sharedlib.hooks"
+  ],
+  "OptionalDependencies": [],
+  "SupportedAppId": [
+    "ffxvi.exe",
+    "ffxvi_demo.exe"
+  ],
+  "ProjectUrl": "https://github.com/mancer81/FF16-Cutscene-Fast-Forward"
+}
