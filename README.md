@@ -1,5 +1,7 @@
 # Cutscene Fast-Forward for FINAL FANTASY XVI
 
+![Cutscene Fast-Forward](docs/images/cover.jpg)
+
 A lightweight **Reloaded-II** quality-of-life mod for **FINAL FANTASY XVI (PC / Steam)** that lets you smoothly **fast-forward** slow in-engine cutscenes and pre-rendered `.bk2` movies by holding your standard Confirm button — so you can keep following the story and reading subtitles without skipping whole scenes.
 
 ---
@@ -9,6 +11,14 @@ A lightweight **Reloaded-II** quality-of-life mod for **FINAL FANTASY XVI (PC / 
 In vanilla FINAL FANTASY XVI:
 - Regular NPC conversations can be tapped through line-by-line, but **full cutscenes** force you to either watch at 1x speed or skip the entire scene through the pause menu.
 - **Cutscene Fast-Forward** gives you instant, on-demand fast-forward (`4x` by default, configurable up to `24x`) that activates **only during cutscenes and pre-rendered movies** and automatically returns to `1.0x` the moment you release the button, pause the game, or return to gameplay.
+
+---
+
+## Showcase
+
+| Idle Cutscene Prompt | Active 4x Fast-Forward |
+| :---: | :---: |
+| ![Idle Cutscene Prompt](docs/images/showcase_idle.jpg) | ![Active 4x Fast-Forward](docs/images/showcase_active.jpg) |
 
 ---
 
